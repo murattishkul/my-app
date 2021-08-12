@@ -1,0 +1,16 @@
+select {
+  width: 150px;
+  padding: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 1em;
+  background: #ffffff;
+  border: 2px solid #e5e5e5;
+  box-sizing: border-box;
+  color: black;
+  border-color: rgba(54, 49, 49, 0.3);
+  border-radius: 4px;
+  font-size: 16pxrem;
+  font-weight: 500;
+  height: 36px;
+}

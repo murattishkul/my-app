@@ -2,6 +2,9 @@ import React from "react";
 import logo from "./logo.svg";
 import { Counter } from "./features/counter/Counter";
 import "./App.css";
+import { Button } from "./stories/Button";
+import { Select } from "./components/Select/Select";
+import { TextInput } from "./components/TextInput/TextInput";
 
 function App() {
   return (
@@ -50,6 +53,14 @@ function App() {
             React Redux
           </a>
         </span>
+        <Button
+          size="large"
+          primary
+          label="Click me!"
+          onClick={() => alert("thanks!")}
+        />
+        <Select />
+        <TextInput />
       </header>
     </div>
   );
